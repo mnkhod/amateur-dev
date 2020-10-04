@@ -30,8 +30,18 @@
   }
 
   .btn-primary{
-    color: white !important;
+    color: white;
     background-color: black !important;
+  }
+
+  .btn--landing.btn-primary::before{
+    background-color: black !important;
+    color: white;
+  }
+  
+  .btn--landing.btn-primary::after{
+    background-color: white !important;
+    color: black !important;
   }
  
   .landing-detail span{
@@ -45,5 +55,61 @@
 
   .main-nav ul li a:hover{
     color: black !important;
-    cursor: not-allowed !important;
+    cursor: default !important;
   }
+
+  .site-header--landing .header-logo--img img{
+    max-width: 21vh;
+  }
+
+  .social-menu--landing li a i{
+    color: black !important;
+  }
+
+  .social-menu--landing li{
+    margin: 0 !important;
+  }
+
+  .social-menu--landing {
+    justify-content:  space-around !important;
+  }
+  .social-menu--landing li a{
+    font-size: 1.325rem !important;
+  }
+
+.social-menu.social-menu--landing.social-menu--landing-glitch {
+  margin: 0em 6em !important;
+}
+
+.video-full-bg__clip{
+  opacity: 1 !important;
+}
+
+.video-full-bg__clip--black-white{
+  filter: grayscale(0%) !important;
+}
+
+@media only screen and (max-width: 450px) {
+  .text-white.landing-title{
+    font-size: 2.4em !important;
+  }
+
+  .social-menu--landing li{
+    margin: 0.6em !important;
+  }
+
+  .social-menu.social-menu--landing.social-menu--landing-glitch{
+    margin: 0 auto !important;
+  }
+}
+
+.btn--landing.btn-primary{
+  box-shadow: 0 0 40px 2px rgba(255, 255, 255, 0.5) !important;
+}
+
+.header-logo.header-logo--img a img {
+  box-shadow: 0 0 15px 2px rgb(255, 255, 255,0.5) !important;
+  background: white;
+  border-radius: 25px;
+  padding: 0.7em;
+}

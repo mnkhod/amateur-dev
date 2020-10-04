@@ -14,9 +14,7 @@ export default function Home() {
         <meta name="keywords" content="esports team news HTML template" />
         {/* Favicons
       ================================================== */}
-        <link rel="shortcut icon" href="assets/img/favicons/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/favicon-120.png" />
-        <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/favicon-152.png" />
+        <link rel="shortcut icon" href="mnk_logo.png" />
         {/* Mobile Specific Metas
       ================================================== */}
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
@@ -45,9 +43,10 @@ export default function Home() {
             {/* Main Navigation Left */}
             <nav className="main-nav">
               <ul className="main-nav__list">
-                <li className><a href="home.html">Home</a></li>
+                <li className><a href="#">Нүүр</a></li>
                 <li className>
-                  <a href="#">Teams</a>
+                  <a href="#">Бүтээл</a>
+                  {/*
                   <ul className="main-nav__sub">
                     <li className>
                       <a href="#">Team Selections</a>
@@ -67,8 +66,10 @@ export default function Home() {
                     </li>
                     <li className><a href="team-player-1.html">Player Page</a></li>
                   </ul>
+                  */}
                 </li>
-                <li className><a href="#">Matches</a>
+                <li className><a href="#">Сургалт</a>
+                  {/*
                   <ul className="main-nav__sub">
                     <li className><a href="matches-scores.html">Match Scores</a></li>
                     <li className><a href="matches-upcoming.html">Upcoming Matches</a></li>
@@ -96,19 +97,20 @@ export default function Home() {
                     </li>
                     <li className><a href="matches-replay.html">Match Replay</a></li>
                   </ul>
+                  */}
                 </li>
               </ul>
             </nav>
             {/* Main Navigation Left / End */}
             {/* Logo - Image Based */}
             <div className="header-logo header-logo--img">
-              <a href="index.html"><img src="mnk_logo.png" alt="Necromancers" /></a>
+              <a href="#"><img src="mnk_logo.png"/></a>
             </div>
             {/* Logo - Image Based / End */}
             {/* Main Navigation Right */}
             <nav className="main-nav">
               <ul className="main-nav__list">
-                <li className><a href="#">News</a>
+                <li className><a href="#">Контент</a>
                   {/*
                     <ul className="main-nav__sub">
                       <li className><a href="blog-1.html">News v1</a></li>
@@ -120,7 +122,7 @@ export default function Home() {
                     </ul> 
                   */}
                 </li>
-                <li className=" has-child"><a href="#">Features</a>
+                <li className=" has-child"><a href="#">Тэмцээн</a>
               {/*
                   <div className="main-nav__megamenu">
                     <div className="row">
@@ -221,13 +223,15 @@ export default function Home() {
                   */}
                 </li>
                 <li className>
-                  <a href="#">Shop</a>
+                  <a href="#">Дэлгүүр</a>
+                  {/*
                   <ul className="main-nav__sub">
                     <li className><a href="shop.html">Shop Page v1</a></li>
                     <li className><a href="shop-2.html">Shop Page v2</a></li>
                     <li className><a href="shop-product.html">Product Page</a></li>
                     <li className><a href="shop-checkout.html">Checkout Page</a></li>
                   </ul>
+                  */}
                 </li>
               </ul>
             </nav>
@@ -238,7 +242,7 @@ export default function Home() {
           <main className="site-content text-center" id="wrapper">
             <div className="site-content__center">
               <h1 className="text-white landing-title"><span className="subtitle landing-subtitle"></span>Сонирхогч Хөгжүүлэгчдийн Вэбсайт</h1>
-              <a href="home.html" className="btn btn-primary btn-lg btn--landing"><span>Тун Удахгүй!</span></a>
+              <a href="https://www.y8.com/" className="btn btn-primary btn-lg btn--landing"><span>Тун Удахгүй!</span></a>
             </div>
             <div className="video-full-bg">
               {/* Video Highlight */}
@@ -259,27 +263,27 @@ export default function Home() {
           <footer id="footer" className="footer text-center">
             <ul className="social-menu social-menu--landing social-menu--landing-glitch">
               <li>
-                <a href="https://www.facebook.com/danfisher.dev/" target="_blank">
+                <a href="https://www.facebook.com/mnkhod.dev" target="_blank">
+                  <i className="fab fa-facebook-messenger" />
+                  <span className="link-subtitle">Facebook</span>mnkhod.dev
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/mnkh_od/" target="_blank">
+                  <i className="fab fa-instagram" />
+                  <span className="link-subtitle">Instagram</span>mnkh_od
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/AmateurDeveloper" target="_blank">
                   <i className="fab fa-facebook-square" />
-                  <span className="link-subtitle">Facebook</span>Necrogame
+                  <span className="link-subtitle">FB Page</span>AmateurDeveloper
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/danfisher_dev" target="_blank">
-                  <i className="fab fa-twitter" />
-                  <span className="link-subtitle">Twitter</span>Necrotwt
-                </a>
-              </li>
-              <li>
-                <a href="https://twitch.com" target="_blank">
-                  <i className="fab fa-twitch" />
-                  <span className="link-subtitle">Twitch</span>Necroplays
-                </a>
-              </li>
-              <li>
-                <a href="https://discordapp.com/" target="_blank">
-                  <i className="fab fa-discord" />
-                  <span className="link-subtitle">Discord</span>Necrochat
+                <a href="mailto: mnkhod.dev@gmail.com" target="_blank">
+                  <i className="fas fa-inbox" />
+                  <span className="link-subtitle">Gmail</span>mnkhod.dev@gmail.com
                 </a>
               </li>
             </ul>
@@ -325,7 +329,7 @@ export default function Home() {
                     <tr>
                       <td className="product__info">
                         <figure className="product__thumb">
-                          <a href="#"><img src="assets/img/cart-panel-img-01.jpg" alt /></a>
+                          <a href="#"><img src="assets/img/cart-panel-img-01.jpg" /></a>
                         </figure>
                         <div className="product__info-content">
                           <h5 className="product__name"><a href="#">Magimons Black Frame Print</a></h5>
@@ -436,7 +440,7 @@ export default function Home() {
                   {/* Mobile Navigation */}
                   <nav className="mobile-nav">
                     <ul className="mobile-nav__list">
-                      <li className>
+                      <li>
                         <a href="#">Main Pages</a>
                         <ul className="mobile-nav__sub">
                           <li className><a href="index.html">Landing Image</a></li>
