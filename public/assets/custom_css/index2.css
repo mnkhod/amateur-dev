@@ -1,0 +1,49 @@
+#footer{
+    margin-top: 4em;
+}
+
+.video-full-bg{
+    background: none !important;
+}
+
+.text-white.landing-title{
+    font-size: 3em;
+}
+
+.site-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .video-full-bg__highlight{
+      opacity: 0 !important;
+  }
+
+  .btn-primary{
+    color: white !important;
+    background-color: black !important;
+  }
+ 
+  .landing-detail span{
+    background-color: none !important;
+    border-color: black !important;
+  }
+
+  .landing-detail-cover span{
+    border-color: white !important;
+  }
+
+  .main-nav ul li a:hover{
+    color: black !important;
+    cursor: not-allowed !important;
+  }
